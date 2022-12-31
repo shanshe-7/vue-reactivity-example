@@ -79,9 +79,4 @@ effect(() => {
   salePrice.value = price * 0.9;
 });
 
-console.log(total);
-
 product.price = 20;
-
-console.log(total);
-// product.quantity = 4;

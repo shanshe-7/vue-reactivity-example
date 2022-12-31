@@ -17,5 +17,3 @@ function trigger() {
 }
 track();
 trigger();
-
-console.log(total);

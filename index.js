@@ -24,11 +24,8 @@ const state = observe({
 const dep = new dependencyTracker.Dep();
 
 dependencyTracker.autorun(() => {
-  console.log("log");
   state.count;
 });
 
 state.count++;
 state.count++;
-
-console.log(state.count);
